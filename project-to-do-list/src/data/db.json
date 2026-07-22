@@ -1,0 +1,74 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Research content ideas",
+      "description": "Gather content trends and ideas for next month's campaign.",
+      "dueDate": "2026-07-25",
+      "list": "Work",
+      "listColor": "#0d6efd",
+      "completed": false,
+      "tags": ["Tag 1"],
+      "subtasks": []
+    },
+    {
+      "id": 2,
+      "title": "Create a database of guest authors",
+      "description": "Compile contact info and topics for potential guest bloggers.",
+      "dueDate": "2026-07-28",
+      "list": "Work",
+      "listColor": "#0d6efd",
+      "completed": false,
+      "tags": ["Tag 2"],
+      "subtasks": []
+    },
+    {
+      "id": 3,
+      "title": "Renew driver's license",
+      "description": "Visit the local DMV website or office to submit renewal documents.",
+      "dueDate": "2026-03-22",
+      "list": "Personal",
+      "listColor": "#dc3545",
+      "completed": false,
+      "tags": ["Tag 1"],
+      "subtasks": [
+        { "id": 101, "title": "Take ID photo", "completed": true }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Consult accountant",
+      "description": "Review tax write-offs and quarterly financial statements.",
+      "dueDate": "2026-03-25",
+      "list": "List 1",
+      "listColor": "#ffc107",
+      "completed": false,
+      "tags": ["Tag 1", "Tag 2"],
+      "subtasks": [
+        { "id": 201, "title": "Gather receipts", "completed": true },
+        { "id": 202, "title": "Prepare expense report", "completed": false },
+        { "id": 203, "title": "Schedule Zoom meeting", "completed": false }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Print business card",
+      "description": "Order 200 copies of new branding business cards.",
+      "dueDate": "2026-08-01",
+      "list": "Work",
+      "listColor": "#0d6efd",
+      "completed": false,
+      "tags": [],
+      "subtasks": []
+    }
+  ],
+  "lists": [
+    { "id": 1, "name": "Personal", "color": "#dc3545", "count": 3 },
+    { "id": 2, "name": "Work", "color": "#0d6efd", "count": 6 },
+    { "id": 3, "name": "List 1", "color": "#ffc107", "count": 3 }
+  ],
+  "tags": [
+    { "id": 1, "name": "Tag 1" },
+    { "id": 2, "name": "Tag 2" }
+  ]
+}
